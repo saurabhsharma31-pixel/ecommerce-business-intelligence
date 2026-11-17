@@ -2,9 +2,7 @@
 
 An original portfolio project demonstrating end-to-end data analytics using Python, Pandas, SQLite, SQL, Plotly and Streamlit.
 
-## Live Demo
-
-##🚀 Live Demo
+## 🚀Live Demo
 
 [Open E-Commerce Business Intelligence Dashboard] (https://ecommerce-business-intelligence-dyeabwv2bnzzog9qwvpgen.streamlit.app/)
 
