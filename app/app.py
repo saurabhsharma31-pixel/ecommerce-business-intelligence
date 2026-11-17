@@ -157,7 +157,13 @@ st.download_button("Download filtered orders (CSV)",f.to_csv(index=False).encode
                    file_name="filtered_ecommerce_orders.csv",mime="text/csv")
 
 with st.expander("Data quality report"):
-    missing=df.isna().sum().rename("missing_values").reset_index(names="column")
+missing = (
+    df.isna()
+    .sum()
+    .rename("missing_values")
+    .rename_axis("column")
+    .reset_index()
+)
     st.write(f"{len(df):,} cleaned rows | {len(df.columns)} columns | {df.order_id.nunique():,} unique order IDs")
     st.dataframe(missing,use_container_width=True,hide_index=True)
 
