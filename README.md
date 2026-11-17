@@ -2,6 +2,12 @@
 
 An original portfolio project demonstrating end-to-end data analytics using Python, Pandas, SQLite, SQL, Plotly and Streamlit.
 
+## Live Demo
+
+🚀 [Launch E-Commerce Business Intelligence Dashboard] (https://ecommerce-business-intelligence-dyeabwv2bnzzog9qwvpgen.streamlit.app/)
+
+Explore interactive sales analytics, profitability, customer segmentation, returns and operational performance.
+
 ## What it does
 - Generates and analyzes 6,000 synthetic e-commerce orders from 2024–2025.
 - Cleans and validates transaction-level data.
